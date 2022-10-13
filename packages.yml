@@ -1,0 +1,3 @@
+packages:
+  - git: "https://github.com/Velir/dbt-ga4.git"
+    revision: 1.0.0
