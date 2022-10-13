@@ -36,3 +36,10 @@ models:
     # Applies to all files under models/example/
     example:
       materialized: view
+
+vars:
+  ga4:
+    project: "bigquery-public-data"
+    dataset: "ga4_obfuscated_sample_ecommerce"
+    start_date: "20210120"
+    frequency: "daily" # daily|streaming|daily+streaming Match to the type of export configured in GA4; daily+streaming appends today's intraday data to daily data
